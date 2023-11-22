@@ -1,0 +1,111 @@
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+color:rgb(249, 244, 238);}
+.head{
+color: rgb(240, 223, 207);
+font-family: sans-serif;
+font-weight: bold;
+font-size:15px;
+}
+body{
+    /*padding-top: 50px;
+*/    background: linear-gradient( to right, #2E2224, #a36c60);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+button{
+    background-color: rgb(247, 237, 227);
+    width: 87px;
+    border: 0;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color:#2E2224;
+    font-size:14px;
+    padding: 6px;
+    
+}
+   
+ .second
+{
+    width: 200px;
+    margin-top: 100px;
+    text-align: center;
+}
+.object{
+    color:rgb(249, 244, 238);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: smaller;
+}
+.object p{
+    font-size: 15px;
+    font-family:  Tahoma;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.container .head{
+    margin-right: 60vh;
+    display: flex;
+    flex-direction: column;
+    size: 20%;
+}
+.navbar
+{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.navbar .logo
+{
+    border-radius: 50%;
+    margin-right: 32vw;
+    margin-left:2vw;
+}
+.navbar .logo img{
+    width:50px;
+    padding: 14px;
+}
+.navbar ul
+{
+    display: flex;
+    list-style: none; 
+}
+.navbar ul li a{
+    color:  rgb(247, 237, 227);
+}
+.navbar ul li {
+    /*display: inline-flex*/
+    flex-direction: row;
+    list-style-type: none;
+    margin-right: 20px;
+    text-decoration: none;
+ font-family: sans-serif;
+  display: inline-flex;
+    justify-content: center;
+    margin: 1rem;
+
+}
+.object ol {
+list-style-type: decimal;  display: flex;
+flex-direction: column;
+align-items: center;
+}
+.object ol li{
+    font-family: monospace;
+    padding-top: 20px;
+    font-size: 13px;
+}
+.ballerini
+{
+    text-align:center;
+    width: 200px;
+    height: 80px;
+}
